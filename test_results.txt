@@ -1,0 +1,423 @@
+SKI MANAGEMENT SYSTEM - COMPREHENSIVE TEST
+================================================================================
+================================================================================
+SETTING UP SKI MANAGEMENT SYSTEM WITH APPENDIX DATA
+================================================================================
+
+1. Creating Groups...
+Group R1 created successfully
+Group R2 created successfully
+Group R3 created successfully
+Group R4 created successfully
+Group R5 created successfully
+
+2. Creating Ski Tracks...
+   Created LANE1: Beginner (Difficulty: 1)
+   Created LANE2: Easy (Difficulty: 2)
+   Created LANE3: Intermediate (Difficulty: 3)
+   Created LANE4: Intermediate (Difficulty: 3)
+   Created LANE5: Advanced (Difficulty: 4)
+   Created LANE6: Advanced (Difficulty: 4)
+   Created LANE7: Experts (Difficulty: 5)
+   Created LANE8: Experts (Difficulty: 5)
+   Created LANE9: Experts (Difficulty: 5)
+   Created LANE10: Experts (Difficulty: 5)
+
+3. Adding Students with Initial Group Allocation...
+Student 1 added to group R1 with order 1
+Track LANE1: Beginner (Difficulty: 1) assigned to Group R1
+Student 6 added to group R1 with order 2
+Track LANE1: Beginner (Difficulty: 1) assigned to Group R1
+Student 11 added to group R1 with order 3
+Track LANE1: Beginner (Difficulty: 1) assigned to Group R1
+Student 16 added to group R1 with order 4
+Track LANE1: Beginner (Difficulty: 1) assigned to Group R1
+Student 21 added to group R1 with order 5
+Track LANE1: Beginner (Difficulty: 1) assigned to Group R1
+Student 2 added to group R2 with order 1
+Track LANE2: Easy (Difficulty: 2) assigned to Group R2
+Student 7 added to group R2 with order 2
+Track LANE2: Easy (Difficulty: 2) assigned to Group R2
+Student 12 added to group R2 with order 3
+Track LANE2: Easy (Difficulty: 2) assigned to Group R2
+Student 17 added to group R2 with order 4
+Track LANE2: Easy (Difficulty: 2) assigned to Group R2
+Student 22 added to group R2 with order 5
+Track LANE2: Easy (Difficulty: 2) assigned to Group R2
+Student 3 added to group R3 with order 1
+Track LANE3: Intermediate (Difficulty: 3) assigned to Group R3
+Student 8 added to group R3 with order 2
+Track LANE3: Intermediate (Difficulty: 3) assigned to Group R3
+Student 13 added to group R3 with order 3
+Track LANE3: Intermediate (Difficulty: 3) assigned to Group R3
+Student 18 added to group R3 with order 4
+Track LANE3: Intermediate (Difficulty: 3) assigned to Group R3
+Student 23 added to group R3 with order 5
+Track LANE3: Intermediate (Difficulty: 3) assigned to Group R3
+Student 4 added to group R4 with order 1
+Track LANE5: Advanced (Difficulty: 4) assigned to Group R4
+Student 9 added to group R4 with order 2
+Track LANE5: Advanced (Difficulty: 4) assigned to Group R4
+Student 14 added to group R4 with order 3
+Track LANE5: Advanced (Difficulty: 4) assigned to Group R4
+Student 19 added to group R4 with order 4
+Track LANE5: Advanced (Difficulty: 4) assigned to Group R4
+Student 24 added to group R4 with order 5
+Track LANE5: Advanced (Difficulty: 4) assigned to Group R4
+Student 5 added to group R5 with order 1
+Track LANE7: Experts (Difficulty: 5) assigned to Group R5
+Student 10 added to group R5 with order 2
+Track LANE7: Experts (Difficulty: 5) assigned to Group R5
+Student 15 added to group R5 with order 3
+Track LANE7: Experts (Difficulty: 5) assigned to Group R5
+Student 20 added to group R5 with order 4
+Track LANE7: Experts (Difficulty: 5) assigned to Group R5
+Student 25 added to group R5 with order 5
+Track LANE7: Experts (Difficulty: 5) assigned to Group R5
+
+   Added 25 students across 5 groups
+
+================================================================================
+DEMONSTRATING REQUIRED OPERATIONS (Appendix B)
+================================================================================
+
+ OPERATION 1: Add student #26
+--------------------------------------------------
+Student 26 added to system (not assigned to any group)
+
+ OPERATION 2: Assign student #26 to Group R1
+--------------------------------------------------
+Student 26 added to group R1 with order 6
+
+ OPERATION 3: Remove student #26
+--------------------------------------------------
+Student 26 removed from group R1
+Student 26 removed from the system
+
+ OPERATION 4: Display students
+--------------------------------------------------
+
+============================================================
+SKI MANAGEMENT SYSTEM SUMMARY
+============================================================
+
+Total Groups: 5
+Total Students: 25
+Total Tracks: 10
+
+R1:
+  Students: 5
+  Completed Rounds: 0
+  Track: LANE1: Beginner (Difficulty: 1)
+
+R2:
+  Students: 5
+  Completed Rounds: 0
+  Track: LANE2: Easy (Difficulty: 2)
+
+R3:
+  Students: 5
+  Completed Rounds: 0
+  Track: LANE3: Intermediate (Difficulty: 3)
+
+R4:
+  Students: 5
+  Completed Rounds: 0
+  Track: LANE5: Advanced (Difficulty: 4)
+
+R5:
+  Students: 5
+  Completed Rounds: 0
+  Track: LANE7: Experts (Difficulty: 5)
+
+ OPERATION 5: Display groups
+--------------------------------------------------
+Group R1 has 5 students
+Group R2 has 5 students
+Group R3 has 5 students
+Group R4 has 5 students
+Group R5 has 5 students
+
+ OPERATION 6: Display student lists
+--------------------------------------------------
+
+Students in Group R1 (in round order):
+--------------------------------------------------
+1. 1: Aba Ima
+2. 6: Bo Zehava
+3. 11: Bo Zev
+4. 16: Bugi Roni
+5. 21: Sim Simani
+
+Students in Group R2 (in round order):
+--------------------------------------------------
+1. 2: Ima Aba
+2. 7: Bubi Zilzal
+3. 12: Lulu Yitzhak
+4. 17: Poli Pipi
+5. 22: Nam Kore
+
+Students in Group R3 (in round order):
+--------------------------------------------------
+1. 3: Uv Gog
+2. 8: Gogi Roza
+3. 13: Mimi Moni
+4. 18: Sim Shmuel
+5. 23: Sus Zahor
+
+Students in Group R4 (in round order):
+--------------------------------------------------
+1. 4: Ov Didi
+2. 9: Tuta Roni
+3. 14: Shmuel Mashuash
+4. 19: Shmuel Shmueli
+5. 24: Matsa Sash
+
+Students in Group R5 (in round order):
+--------------------------------------------------
+1. 5: Ha Ha
+2. 10: Maga Maga
+3. 15: Mela Meni
+4. 20: Shmulik Shmuelson
+5. 25: Ets Gatz
+
+ OPERATION 7: Show difficulty levels
+--------------------------------------------------
+Ski Track Difficulty Levels:
+------------------------------
+Group R1: Beginner (Level 1)
+Group R2: Easy (Level 2)
+Group R3: Intermediate (Level 3)
+Group R4: Advanced (Level 4)
+Group R5: Experts (Level 5)
+
+ OPERATION 8: Transfer student between groups
+--------------------------------------------------
+Transferring student #3 from R3 to R1...
+Student 3 removed from group R3
+Student 3 added to group R1 with order 6
+After transfer:
+
+Students in Group R1 (in round order):
+--------------------------------------------------
+1. 1: Aba Ima
+2. 6: Bo Zehava
+3. 11: Bo Zev
+4. 16: Bugi Roni
+5. 21: Sim Simani
+6. 3: Uv Gog
+
+R3 after transfer:
+
+Students in Group R3 (in round order):
+--------------------------------------------------
+1. 8: Gogi Roza
+2. 13: Mimi Moni
+3. 18: Sim Shmuel
+4. 23: Sus Zahor
+
+ OPERATION 9: Remove student from the system
+--------------------------------------------------
+Removing student #7 from the system...
+Student 7 removed from group R2
+Student 7 removed from the system
+R2 after removal:
+
+Students in Group R2 (in round order):
+--------------------------------------------------
+1. 2: Ima Aba
+2. 12: Lulu Yitzhak
+3. 17: Poli Pipi
+4. 22: Nam Kore
+
+ OPERATION 10: Display student list in Groups R1, R2, R3, R4, R5
+----------------------------------------------------------------------
+
+Students in Group R1 (in round order):
+--------------------------------------------------
+1. 1: Aba Ima
+2. 6: Bo Zehava
+3. 11: Bo Zev
+4. 16: Bugi Roni
+5. 21: Sim Simani
+6. 3: Uv Gog
+
+
+Students in Group R2 (in round order):
+--------------------------------------------------
+1. 2: Ima Aba
+2. 12: Lulu Yitzhak
+3. 17: Poli Pipi
+4. 22: Nam Kore
+
+
+Students in Group R3 (in round order):
+--------------------------------------------------
+1. 8: Gogi Roza
+2. 13: Mimi Moni
+3. 18: Sim Shmuel
+4. 23: Sus Zahor
+
+
+Students in Group R4 (in round order):
+--------------------------------------------------
+1. 4: Ov Didi
+2. 9: Tuta Roni
+3. 14: Shmuel Mashuash
+4. 19: Shmuel Shmueli
+5. 24: Matsa Sash
+
+
+Students in Group R5 (in round order):
+--------------------------------------------------
+1. 5: Ha Ha
+2. 10: Maga Maga
+3. 15: Mela Meni
+4. 20: Shmulik Shmuelson
+5. 25: Ets Gatz
+
+
+================================================================================
+DEMONSTRATING ADVANCED FEATURES
+================================================================================
+
+Starting Rounds for All Groups...
+Round 1 started for Group R1
+Round 1 started for Group R2
+Round 1 started for Group R3
+Round 1 started for Group R4
+Round 1 started for Group R5
+
+ Next Students for Each Group:
+----------------------------------------
+Group R1: 1: Aba Ima
+Group R2: 2: Ima Aba
+Group R3: 8: Gogi Roza
+Group R4: 4: Ov Didi
+Group R5: 5: Ha Ha
+
+ Completing Some Rounds with Scores...
+----------------------------------------
+Round completed for 1 with score 85.5
+Round completed for 2 with score 78.0
+Student 3 not found in group R3
+Round completed for 4 with score 88.0
+Round completed for 5 with score 95.0
+
+ Updated Next Students After Scoring:
+----------------------------------------
+Group R1: 6: Bo Zehava
+Group R2: 12: Lulu Yitzhak
+Group R3: 8: Gogi Roza
+Group R4: 9: Tuta Roni
+Group R5: 10: Maga Maga
+
+🏔️ MOUNTAIN VIEW - All Groups Rounds:
+--------------------------------------------------
+
+============================================================
+MOUNTAIN VIEW - ROUNDS IN ALL GROUPS
+============================================================
+
+R1:
+
+Rounds in Group R1:
+----------------------------------------
+Round 1: 1: Aba Ima - Completed (Score: 85.5)
+Round 1: 6: Bo Zehava - Pending
+Round 1: 11: Bo Zev - Pending
+Round 1: 16: Bugi Roni - Pending
+Round 1: 21: Sim Simani - Pending
+Round 1: 3: Uv Gog - Pending
+
+R2:
+
+Rounds in Group R2:
+----------------------------------------
+Round 1: 2: Ima Aba - Completed (Score: 78.0)
+Round 1: 12: Lulu Yitzhak - Pending
+Round 1: 17: Poli Pipi - Pending
+Round 1: 22: Nam Kore - Pending
+
+R3:
+
+Rounds in Group R3:
+----------------------------------------
+Round 1: 8: Gogi Roza - Pending
+Round 1: 13: Mimi Moni - Pending
+Round 1: 18: Sim Shmuel - Pending
+Round 1: 23: Sus Zahor - Pending
+
+R4:
+
+Rounds in Group R4:
+----------------------------------------
+Round 1: 4: Ov Didi - Completed (Score: 88.0)
+Round 1: 9: Tuta Roni - Pending
+Round 1: 14: Shmuel Mashuash - Pending
+Round 1: 19: Shmuel Shmueli - Pending
+Round 1: 24: Matsa Sash - Pending
+
+R5:
+
+Rounds in Group R5:
+----------------------------------------
+Round 1: 5: Ha Ha - Completed (Score: 95.0)
+Round 1: 10: Maga Maga - Pending
+Round 1: 15: Mela Meni - Pending
+Round 1: 20: Shmulik Shmuelson - Pending
+Round 1: 25: Ets Gatz - Pending
+
+================================================================================
+PERFORMANCE DEMONSTRATION
+================================================================================
+
+📊 System Statistics:
+-------------------------
+
+============================================================
+SKI MANAGEMENT SYSTEM SUMMARY
+============================================================
+
+Total Groups: 5
+Total Students: 24
+Total Tracks: 10
+
+R1:
+  Students: 6
+  Completed Rounds: 1
+  Track: LANE1: Beginner (Difficulty: 1)
+  Scores: {'1': 85.5}
+
+R2:
+  Students: 4
+  Completed Rounds: 1
+  Track: LANE2: Easy (Difficulty: 2)
+  Scores: {'2': 78.0}
+
+R3:
+  Students: 4
+  Completed Rounds: 0
+  Track: LANE3: Intermediate (Difficulty: 3)
+
+R4:
+  Students: 5
+  Completed Rounds: 1
+  Track: LANE5: Advanced (Difficulty: 4)
+  Scores: {'4': 88.0}
+
+R5:
+  Students: 5
+  Completed Rounds: 1
+  Track: LANE7: Experts (Difficulty: 5)
+  Scores: {'5': 95.0}
+
+⚡ Performance Test - Finding Students:
+----------------------------------------
+1000 student searches completed in 0.0012 seconds
+1000 group searches completed in 0.0008 seconds
+10000 counting operations completed in 0.0010 seconds
+
+================================================================================
+ ALL TESTS COMPLETED SUCCESSFULLY!
+================================================================================
